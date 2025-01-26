@@ -18,7 +18,6 @@ export default tseslint.config(
       "react-refresh": reactRefresh,
     },
     ignores: ["node_modules",".vscode","coverage"],
-
     rules: {
       ...reactHooks.configs.recommended.rules,
       "react-refresh/only-export-components": [
