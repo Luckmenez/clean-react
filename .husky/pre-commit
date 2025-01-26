@@ -1,0 +1,5 @@
+. "$(dirname "$0")/_/husky.sh"
+
+echo 'starting to run linting errors'
+
+npx lint-staged
