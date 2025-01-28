@@ -7,6 +7,8 @@ export class RemoteAuthentication {
   ) {}
 
   auth(): void {
-    this.httpPostClient.post(this.url);
+    this.httpPostClient.post({
+      url: this.url,
+    });
   }
 }
