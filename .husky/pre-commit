@@ -3,4 +3,5 @@
 echo 'starting to run linting errors'
 
 npm run lint:fix
+npm run format
 npm run test:staged
